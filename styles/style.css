@@ -223,10 +223,11 @@ footer {
 .footer-col {
     width: 50%;
 }
-.social-links a{
-margin-right: 25px;
-width: 24px;
-height: 24px;
+
+.social-links a {
+    margin-right: 25px;
+    width: 24px;
+    height: 24px;
 }
 
 .contact input[type="text"],
@@ -246,5 +247,5 @@ textarea {
 
 .contact textarea {
     width: 100%;
-    
+
 }
