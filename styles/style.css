@@ -166,10 +166,12 @@ main {
     gap: 71px;
     margin: 115px 0;
 }
-#resume-cv{
+
+#resume-cv {
     margin-top: 130px;
 
 }
+
 .resume-heading {
     color: #474747;
     font-size: 30px;
@@ -196,6 +198,53 @@ main {
 }
 
 hr {
-
     color: #D1D1D1;
+}
+
+.cv-button {
+    text-align: center;
+}
+
+/* footer styles */
+footer {
+    display: flex;
+    gap: 117px;
+    background-color: #FFF8F3;
+    padding: 130px 230px;
+    margin-top: 130px;
+}
+
+#footer-col {
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.footer-col {
+    width: 50%;
+}
+.social-links a{
+margin-right: 25px;
+width: 24px;
+height: 24px;
+}
+
+.contact input[type="text"],
+.contact input[type="email"],
+textarea {
+    display: block;
+    margin-bottom: 24px;
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 18px 30px;
+    border-radius: 5px;
+    background: #FFF;
+    width: 100%;
+    border: 0;
+}
+
+.contact textarea {
+    width: 100%;
+    
 }
