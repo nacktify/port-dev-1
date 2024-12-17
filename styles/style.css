@@ -15,6 +15,7 @@ body {
     font-size: 20px;
     font-weight: 700;
     padding: 18px 35px;
+    margin-right: 30px;
 }
 
 .sec-title {
@@ -22,7 +23,6 @@ body {
     text-align: center;
     font-size: 35px;
     font-weight: 700;
-    margin-top: 130px;
 }
 
 .sec-description {
@@ -111,10 +111,10 @@ main {
 
 /* about section */
 .about {
-    padding: 10px 155px 130px 155px;
+    padding: 130px;
     border-radius: 10px;
     background-color: #FFF8F3;
-    margin-top: 130px;
+    margin: 130px 0;
 }
 
 .about-info-container {
@@ -166,7 +166,10 @@ main {
     gap: 71px;
     margin: 115px 0;
 }
+#resume-cv{
+    margin-top: 130px;
 
+}
 .resume-heading {
     color: #474747;
     font-size: 30px;
@@ -193,7 +196,6 @@ main {
 }
 
 hr {
-    width: 558px;
-    height: 1px;
+
     color: #D1D1D1;
 }
