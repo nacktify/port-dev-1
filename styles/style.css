@@ -324,10 +324,14 @@ footer textarea {
 
     .header {
         background-color: #fff8f3;
-        background-image: url('../images/header_bg.png');
+        background-image: none;
         background-repeat: no-repeat;
         background-position: bottom right;
         padding: 0 10px;
+    }
+
+    .banner .hero-pic {
+        width: 100%;
     }
 
     .primary-btn {
