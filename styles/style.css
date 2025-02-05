@@ -320,18 +320,16 @@ footer textarea {
         flex-direction: column;
         padding: 0;
         align-items: center;
+        margin: 0;
     }
 
     .header {
         background-color: #fff8f3;
         background-image: none;
-        background-repeat: no-repeat;
-        background-position: bottom right;
-        padding: 0 10px;
     }
 
     .banner .hero-pic {
-        width: 100%;
+        width: 70%;
     }
 
     .primary-btn {
