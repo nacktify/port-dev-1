@@ -1,4 +1,9 @@
 /* Common Shared style */
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: 'Open Sans';
 }
@@ -65,9 +70,9 @@ nav a {
 /* header styles */
 .header {
     background-color: #fff8f3;
-    background-image: url('../images/header_bg.png');
+    background-image: url('../images/developer.png'), url('../images/header_bg.png');
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: left, bottom right;
 }
 
 .banner {
@@ -221,7 +226,7 @@ footer {
 }
 
 .footer-col {
-    width: 50%;
+    width: 100%;
 }
 
 .social-links a {
@@ -232,20 +237,110 @@ footer {
 
 .contact input[type="text"],
 .contact input[type="email"],
-textarea {
-    display: block;
+footer textarea {
     margin-bottom: 24px;
     color: #757575;
     font-size: 16px;
     font-weight: 400;
-    padding: 18px 30px;
+    padding: 18px;
     border-radius: 5px;
     background: #FFF;
     width: 100%;
     border: 0;
 }
 
-.contact textarea {
-    width: 100%;
 
+/* responsive design */
+.hide {
+    display: none;
+}
+
+@media screen and (max-width:576px) {
+    .card-section {
+        flex-direction: column;
+    }
+
+    #what-i-do-description {
+        padding: 20px;
+    }
+
+    .resume-container {
+        margin-bottom: 30px;
+    }
+
+    .sec-title {
+        margin-bottom: 20px;
+    }
+
+    .cv {
+        flex-direction: column;
+        margin: 0;
+        padding: 10px;
+        gap: 0;
+    }
+
+    .resume-heading {
+        text-align: center;
+        color: #757575;
+    }
+
+    footer {
+        flex-direction: column-reverse;
+        padding: 0;
+        gap: 30px;
+        margin: 0;
+    }
+
+    .footer-col {
+        text-align: center;
+        margin: 0 auto;
+        width: calc(100% - 40px);
+    }
+
+    .contact {
+        margin: 0 auto;
+    }
+
+    .contact input[type="text"],
+    .contact input[type="email"],
+    footer textarea {
+        width: calc(100% - 40px);
+    }
+
+    .about {
+        padding: 10px;
+        margin: 20px auto;
+    }
+
+    .about-info-container {
+        flex-wrap: wrap;
+    }
+
+    .banner {
+        flex-direction: column;
+        padding: 0;
+        align-items: center;
+    }
+
+    .header {
+        background-color: #fff8f3;
+        background-image: url('../images/header_bg.png');
+        background-repeat: no-repeat;
+        background-position: bottom right;
+        padding: 0 10px;
+    }
+
+    .primary-btn {
+        padding: 15px 18px;
+    }
+
+    nav {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    nav li {
+        margin: 0 20px;
+
+    }
 }
